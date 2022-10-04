@@ -1,5 +1,4 @@
 class Calculate
-    
     attr_reader :cart_item 
 
     def initialize(cart_item)

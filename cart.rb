@@ -3,7 +3,6 @@ require_relative('cart_input.rb')
 require 'pry'
 
 class Cart
-  
   VALID_REG = (/\d\s([a-zA-Z]\w*\s)+(\d+\.\d*)/)
 
 	def input

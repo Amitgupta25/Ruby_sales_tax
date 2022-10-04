@@ -24,7 +24,7 @@ class CartInput
 
     def sales_tax(price)
         val = (exempt) ? 0 : (price * TAXES["basic"])
-        val += (cart_item.include?IMP) ? (price * TAXES["imported"]) : 0
+        val += (cart_item.include?IMP) ? (price*TAXES["imported"]) : 0
     end
 end
     
